@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+.nav-bar{
+    background-color: #0F1111;
+    color: white;
+    height: 60.99;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 112px;
+}
+.logo-nav{
+    border: 2px solid transparent;
+}
+.logo-nav:hover{
+    border: 2px solid white;
+}
+.icon-nav{
+    display: flex;
+}
+.add1{
+    color:#cccccc;
+    font-size: 0.8rem;
+    left: 20px;
+    margin-left: 10px;    
+}
+.add2{
+   font-size: 0.95;
+}
+.address{
+    margin-left:10px;
+}
+/* box 3 */
+.search-nav{
+    display: flex;
+    background-color: pink;
+    width: 600px;
+    height: 39px;
+    border-radius: 4px;
+    justify-content: space-evenly;    /* a jova nu */
+    margin-left: 10px;
+    border: 2px solid transparent;
+}
+.search-nav:hover{
+    border: 2px solid orangered;
+}
+.selection{
+    width: 50px;
+    background-color: #cccccc;
+    text-align: center;
+    border-top-left-radius:4px;
+    border: none;
+}
+.searchbox{
+    width: 100%;
+    border: none;
+}
+.search-butn-div{
+    width: 50px;
+    height: 39px;
+}
+.search-butn{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(204, 204, 38);
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: larger;
+}
+
+
+/* box 4 */
+.sign-in-box{
+    font-size: .8rem;
+}
+.acount-selection{
+       display: flex;
+       font-size: 1rem;
+       justify-content: center;
+}
+.sign-in-selection{
+    background-color: #0F1111;
+    color: blanchedalmond;
+    border: none;
+}
+
+.sign-in-box{
+    border: 2px solid transparent;
+}
+
+.sign-in-box:hover{
+      border: 2px solid white;
+}
+
+.cart{
+    display: flex;
+}
+.cart-1{
+    font-size: 20px;
+}
+
+/* next pannel */
+
+.second-pannel{
+    background-color: #033737;
+    color: #cccccc;
+    display: flex;
+    font-size: .8rem;
+    height: 25px;
+    align-items: center;
+}
+
+.all{
+    margin-left: 8px;
+    display: flex;
+}
+.all-bar{
+    margin-left: 5px;
+    
+}
+.todays-deal{
+    margin-left: 20px;
+}
+.shop-deals{
+    position: absolute;
+    right: 90px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid wheat;
+}
+.margine{
+    display: flex;
+}
+/* hero section */
+.hero-section{
+    height: 300px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+.amazon-india{
+   margin-top: 250px;
+   height: 30px;
+   width: 98%;
+   text-align: center;
+   background-color: antiquewhite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.amazon-india a{
+    color: #007185;
+}
+
+/* Content Section */
+.content-shop{
+    display: flex;
+    width: 100%;
+    background-color:#E3E6E6;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 400px;
+    width: 280px;
+    margin: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.box2{
+    height: 400px;
+    width: 280px;
+    margin: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.box3{
+    height: 400px;
+    width: 280px;
+    margin: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.box4{
+    height: 400px;
+    width: 280px;
+    margin: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.gifts-freinds{
+    height: 70%;
+    width: 95%;
+    background-image: url(Gift\ Your\ Ftrindsjpg.jpg);
+    background-size: cover;
+}
+.gaming{
+    background-image: url(Gaming\ Setup.jpg);
+}
+.kids-book{
+    background-image: url(kid_book.jpg);
+}
+.mens-wear{
+    background-image: url(Mens\ Wear.jpg);
+}
+.see-more{
+    text-decoration: none;
+    color: #007185;
+    margin-right: 70%;
+}
+.Gifts-to-freinds{
+      color:#0F1111;
+      font-size: larger;
+      font-weight: bold;
+}
+.mobile-content{
+    height: 200px;
+    background-image: url(mobile-content.jpg);
+    background-size: cover;
+}
+.back-to-top{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    background-color: #37475A;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    border-top: 1px solid #1b2b43;
+    background-color: #37475A;
+}
+.dis-box1{
+    margin-top: 50px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.title{
+    font-weight: 800;
+    color: white;
+}
+.dis-box1 a{
+     text-decoration: none;
+     margin-right: 70px;
+     margin-top: 5px ;
+     text-decoration: none;
+     color: #DDDDDD;
+}
+.Language-logo{
+    height: 70px;
+    display: flex;
+    border-top: 1px solid #1b2b43;
+    background-color: #37475A;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* LAST Two FOOTER */
+.class-to-second{
+    height: 200px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+}
+.last-to-second-box1
+{
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    height:200px;
+    width: 200px;
+    flex-direction: column;
+    
+}
+.inner-box1{
+    display: flex;
+    flex-direction: column;
+    height:50%;
+    width: 100%;
+     
+}
+.inner-box2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    height:50%;
+    width: 100%;   
+}
+.last-to-second-box1 a{
+    text-decoration: none;
+    font-size: medium;
+    color:#999999;
+}
+.AbeBooks{
+    font-weight: bolder;
+    color: #DDDDDD;
+}
+
+.rest-of-project{
+    background-color: #131A22;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rest-of-project a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: small;
+}
+.mid{
+    margin-top: 20px;
+}
+.single{
+    margin-left: 27px;
+}
+
+
+
+
